@@ -1,0 +1,360 @@
+.home-banner-sec .banner-content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+.banner-content .subtitle{
+    color: #3c3e41;
+    font-weight: 500;
+}
+.banner-content span.subtitle {
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    color: var(--color-lightn);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+}
+.banner-content .title {
+    color: #1e2125;
+        font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 22px;
+    font-family: var(--font-secondary);
+}
+.banner-content .title span:nth-child(1) {
+    color: #ff014f;
+}
+
+.banner-content p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #3c3e41;
+    padding-right: 16%;
+    opacity: 0.9;
+}
+.download-btn {
+    background:#ff014f !important;
+    color: white !important;
+    width: 150px !important;
+}
+
+.title-section {
+    display: flex;
+    align-items: center; /* Vertically center the text and lines */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  .line {
+    width:100px;
+    height: 3px; /* Thickness of the line */
+    background-color: #ff014f; /* Color of the line */
+    margin: 0 10px; /* Space between the line and the text */
+  }
+  
+  .cust-underline {
+    font-weight: bold; /* Style for the text */
+  }
+  .about-me-section p,.projects-list p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #3c3e41;
+    opacity: 0.9;
+}
+
+.tab-navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .tab-button.active {
+    background-color: #ff014f !important; /* Active tab color */
+    color: white; /* Active text color */
+  }
+  
+  .tab-button:hover {
+    background-color: #dca8b8; /* Hover effect */
+  }
+  
+  .tab-content {
+    text-align: center; /* Centering the content */
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between skill items */
+  }
+  
+  .skill-item {
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+/* Section Styling */
+.skills-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Darker text for emphasis */
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Underline below Title */
+  .heading-underline {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ff014f; /* Highlight color */
+    margin: 10px auto 40px;
+  }
+  
+  /* Skills List */
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between skill items */
+  }
+  
+  /* Skill Item Styling */
+  .skill-item {
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 30px; /* Rounded corners for a pill-shaped look */
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* Hover Effect on Skill Items */
+  .skill-item:hover {
+    transform: translateY(-5px); /* Slightly elevate on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  
+  
+  
+  /* General Section Styling */
+.projects-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Underline below Title */
+  .heading-underline {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ff014f;
+    margin: 10px auto 40px;
+  }
+  
+  /* Projects List */
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between each project */
+  }
+  
+  /* Project Item Styling */
+  .project-item {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .project-item:hover {
+    background: linear-gradient(145deg, #ff014f, #d11414);;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;;
+    transform: translateY(-5px);
+    color: white;
+  }
+  .project-item:hover p
+  {
+    color: white;
+
+  }
+  /* Project Title Styling */
+  .project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .projects-list {
+      flex-direction: column;
+    }
+  
+    .section-title {
+      font-size: 28px;
+    }
+  
+    .project-item {
+      max-width: 100%;
+    }
+  }
+  
+
+  /* General Section Styling */
+.experience-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Underline below Title */
+  .heading-underline {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ff014f;
+    margin: 10px auto 40px;
+  }
+  
+  /* Experience List */
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Space between each experience */
+  }
+  
+  /* Experience Item Styling */
+  .experience-item {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Experience Title Styling */
+  .experience-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .experience-item {
+      max-width: 100%;
+    }
+  
+    .section-title {
+      font-size: 28px;
+    }
+  }
+  
+
+  /* General Section Styling */
+.contact-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Underline below Title */
+  .heading-underline {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ff014f;
+    margin: 10px auto 40px;
+  }
+  
+  /* Contact Info Styling */
+  .contact-info {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  .contact-info a {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 28px;
+    }
+  }
+  
