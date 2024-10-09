@@ -7,10 +7,10 @@ const Experience = () => {
         <div className="row pt-5 pb-5">
           <div className="col-md-12 sec-header">
             <h2 className="section-title mb-0">Work Experience</h2>
-            <div className="title-section">
-              <div className="line"></div> {/* Left line */}
+            <div className="title-section-exp">
+              <div className="line-exp"></div> {/* Left line */}
               <span className="cust-underline">1.6 Years</span>
-              <div className="line"></div> {/* Right line */}
+              <div className="line-exp"></div> {/* Right line */}
             </div>
 
             <div className="experience-list pt-3">

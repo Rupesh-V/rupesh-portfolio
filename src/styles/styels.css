@@ -139,6 +139,27 @@
   }
   
   /* Skills List */
+  .skills-heading-underline1 {
+    display: block;
+    width: 530px;
+    height: 4px;
+    background-color: #ff014f;
+    margin: 10px auto 40px;
+  }
+  .skills-heading-underline2 {
+    display: block;
+    width: 270px;
+    height: 4px;
+    background-color: #ff014f;
+    margin: 10px auto 40px;
+  }
+  .skills-heading-underline3 {
+    display: block;
+    width: 465px;
+    height: 4px;
+    background-color: #ff014f;
+    margin: 10px auto 40px;
+  }
   .skills-list {
     list-style-type: none;
     padding: 0;
@@ -271,6 +292,18 @@
   }
   
   /* Experience List */
+  .title-section-exp {
+    display: flex;
+    align-items: center; /* Vertically center the text and lines */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  .line-exp {
+    width:150px;
+    height: 3px; /* Thickness of the line */
+    background-color: #ff014f; /* Color of the line */
+    margin: 0 10px; /* Space between the line and the text */
+  }
   .experience-list {
     display: flex;
     flex-direction: column;
@@ -329,7 +362,7 @@
   /* Underline below Title */
   .heading-underline {
     display: block;
-    width: 80px;
+    width: 270px;
     height: 4px;
     background-color: #ff014f;
     margin: 10px auto 40px;
@@ -341,7 +374,13 @@
     color: #333;
     line-height: 1.8;
   }
-  
+  .contact-heading-underline{
+    display: block;
+    width: 250px;
+    height: 4px;
+    background-color: #ff014f;
+    margin: 10px auto 40px;
+  }
   .contact-info a.main_anchor {
     width: 61px;
     height: 61px;

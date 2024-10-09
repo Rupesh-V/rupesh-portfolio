@@ -7,8 +7,8 @@ const Contact = () => {
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12 sec-header text-center">
-            <h2 className="section-title">Contact Me</h2>
-            <span className="heading-underline"></span>
+            <h2 className="section-title mb-0">Contact Me</h2>
+            <span className="contact-heading-underline"></span>
             <p className="pt-3 contact-para">
               I’m always open to new opportunities and collaborations! Feel free to reach out to discuss 
               potential projects, job offers, or even just to connect. Here’s how you can get in touch with me:

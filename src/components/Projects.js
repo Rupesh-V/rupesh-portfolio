@@ -39,7 +39,7 @@ const Projects = () => {
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12 sec-header">
-            <h2 className="section-title">Projects</h2>
+            <h2 className="section-title mb-0">Projects</h2>
             <span className="heading-underline"></span>
 
             <div className="projects-list">
