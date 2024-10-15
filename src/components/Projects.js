@@ -40,9 +40,9 @@ const Projects = () => {
         <div className="row pt-5 pb-5">
           <div className="col-md-12 sec-header">
             <h2 className="section-title mb-0">Projects</h2>
-            <span className="heading-underline"></span>
+            <span className="projects-heading-underline"></span>
 
-            <div className="projects-list">
+            <div className="projects-list pt-3 pt-md-4">
               {projects.map(project => (
                 <div key={project.name} className="project-item">
                   <h3>{project.name}</h3>

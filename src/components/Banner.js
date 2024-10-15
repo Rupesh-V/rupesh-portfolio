@@ -7,16 +7,12 @@ const HomePageContent = () => {
     <div>
       <section 
         className="home-banner-sec position-relative"
-        style={{
-          backgroundColor: '#ECF0F3',
-          backgroundSize: 'cover',
-          height: '100vh',
-        }}
+        
       >
         <div className="container-fluid h-100">
           <div className="container h-100 p-0">
             <div className="row h-100">
-              <div className="col-md-7 banner-content">
+              <div className="col-sm-12 col-md-7 order-2 order-md-1 banner-content">
                 <span className="subtitle">Welcome to my world</span>
                 <h1 className="title">
                   Hi, I’m <span>Rupesh Vakati</span><br />
@@ -39,8 +35,8 @@ const HomePageContent = () => {
                     View My CV
                 </a>
               </div>
-              <div className="col-md-5 d-flex align-items-center">
-                <figure className="mb-0 d-flex justify-content-center">
+              <div className="col-sm-12 col-md-5 order-1 order-md-2 d-flex align-items-center">
+                <figure className="mb-0 d-flex justify-content-center img-resp">
                   <img src={RupeshPic} alt="Rupesh Vakati" className="w-75" />
                 </figure>
               </div>

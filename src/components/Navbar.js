@@ -29,12 +29,6 @@ const Navbar = () => {
     >
       <div
         className="nav-brand me-4"
-        style={{
-          color: 'white',
-          fontSize: '24px',
-          fontWeight: 'bold',
-          cursor: 'pointer',
-        }}
       >
         <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
           Rupesh Vakati

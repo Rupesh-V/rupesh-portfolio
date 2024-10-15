@@ -35,7 +35,7 @@ const Skills = () => {
       <div className="container">
       <h2 className="section-title mb-0">{activeTab === 'libraries' ? 'Libraries and Frameworks' : activeTab === 'languages' ? 'Languages' : 'Tools and Technologies'}</h2>
       <span className={activeTab === 'libraries'? 'skills-heading-underline1'  : activeTab === 'languages' ? 'skills-heading-underline2' : 'skills-heading-underline3'}></span>        
-        <div className="tab-navigation">
+        <div className="tab-navigation pt-3 pt-md-4">
           <button onClick={() => setActiveTab('libraries')} className={`tab-button ${activeTab === 'libraries' ? 'active' : ''}`}>Libraries & Frameworks</button>
           <button onClick={() => setActiveTab('languages')} className={`tab-button ${activeTab === 'languages' ? 'active' : ''}`}>Languages</button>
           <button onClick={() => setActiveTab('tools')} className={`tab-button ${activeTab === 'tools' ? 'active' : ''}`}>Tools & Technologies</button>
