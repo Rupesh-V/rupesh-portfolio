@@ -320,6 +320,17 @@
   .nav-brand{
     font-size: '16px';
   }
+  .ant-menu-dark .ant-menu-item-selected,.ant-menu-dark>.ant-menu .ant-menu-item-selected{
+    background-color: transparent !important;
+
+  }
+  .ant-menu .ant-menu-title-content a:hover{
+    color: #ff014f !important;
+
+  }
+  .ant-menu-dark.ant-menu-horizontal >.ant-menu-submenu-selected{
+    background-color: transparent;
+  }
   .home-banner-sec .banner-content {
     padding-top: 25px;
     align-items: center;
